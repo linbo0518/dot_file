@@ -10,12 +10,14 @@ libyaml
 libzip
 lua
 m-cli
+makedepend
 mas
 openssl
 perl
 python
 readline
 ruby
+screenfetch
 speedtest-cli
 sqlite
 thefuck

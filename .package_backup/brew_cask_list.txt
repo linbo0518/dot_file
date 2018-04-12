@@ -30,6 +30,7 @@ qlimagesize
 qlmarkdown
 qlstephen
 qlvideo
+quicklook-csv
 quicklook-json
 quicklookapk
 shadowsocksx-ng
