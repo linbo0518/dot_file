@@ -23,6 +23,7 @@ macdown
 mos
 noti
 paragon-ntfs
+pdfexpert
 postman
 pycharm
 qlcolorcode
