@@ -1,6 +1,7 @@
 aria2
 cask-repair
 cmake
+cowsay
 gcc
 gdbm
 git
