@@ -3,6 +3,7 @@ alfred
 android-platform-tools
 android-studio
 appcleaner
+baidunetdisk
 bartender
 bilibili
 boom-3d
