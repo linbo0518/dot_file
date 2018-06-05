@@ -12,10 +12,13 @@ coconutbattery
 dash
 etcher
 fliqlo
+flume
 font-menlo-for-powerline
 gfxcardstatus
+github
 google-backup-and-sync
 google-chrome
+handshaker
 iina
 intellij-idea
 iterm2
