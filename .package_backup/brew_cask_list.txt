@@ -11,11 +11,11 @@ cmdtap
 coconutbattery
 dash
 etcher
+eudic
 fliqlo
 flume
 font-menlo-for-powerline
 gfxcardstatus
-github
 google-backup-and-sync
 google-chrome
 handshaker
@@ -39,6 +39,7 @@ quicklook-csv
 quicklook-json
 quicklookapk
 shadowsocksx-ng
+thunder
 transmission
 turbo-boost-switcher
 visual-studio-code
