@@ -59,7 +59,7 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  adb colored-man-pages colorize extract pip thefuck z
+  adb colored-man-pages colorize extract pyenv thefuck z
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -100,3 +100,14 @@ alias upgrade_all="mas upgrade && brew upgrade && brew cu -ay"
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
 DEFAULT_USER="$USER"
+
+# pip zsh completion
+function _pip_completion {
+  local words cword
+  read -Ac words
+  read -cn cword
+  reply=( $( COMP_WORDS="$words[*]" \
+             COMP_CWORD=$(( cword-1 )) \
+             PIP_AUTO_COMPLETE=1 $words[1] ) )
+}
+compctl -K _pip_completion pip
