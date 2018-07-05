@@ -5,7 +5,6 @@ android-studio
 appcleaner
 baidunetdisk
 bartender
-bilibili
 boom-3d
 cmdtap
 coconutbattery

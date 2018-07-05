@@ -1,10 +1,12 @@
 aria2
+autoconf
 cask-repair
 cmake
 gcc
 gdbm
 git
 gmp
+gradle
 highlight
 hr
 htop
@@ -19,6 +21,9 @@ mas
 mpfr
 openssl
 perl
+pkg-config
+pyenv
+pyenv-virtualenv
 python
 readline
 ruby
