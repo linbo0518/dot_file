@@ -6,7 +6,6 @@ gcc
 gdbm
 git
 gmp
-gradle
 highlight
 hr
 htop

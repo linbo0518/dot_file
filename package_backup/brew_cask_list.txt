@@ -15,6 +15,7 @@ fliqlo
 flume
 font-menlo-for-powerline
 gfxcardstatus
+github
 google-backup-and-sync
 google-chrome
 handshaker
