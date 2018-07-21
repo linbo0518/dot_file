@@ -91,7 +91,7 @@ source $ZSH/oh-my-zsh.sh
 #
 # Example aliases
 alias zshconfig="vim ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+alias ohmyzsh="cd ~/.oh-my-zsh"
 alias ll="ls -ahl"
 alias rm="rm -i"
 alias upgrade_all="mas upgrade && brew upgrade && brew cu -ay"

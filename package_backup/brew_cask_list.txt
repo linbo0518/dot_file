@@ -10,7 +10,6 @@ cmdtap
 coconutbattery
 dash
 etcher
-eudic
 fliqlo
 flume
 font-menlo-for-powerline
