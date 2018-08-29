@@ -1,7 +1,5 @@
-adobe-creative-cloud
 alfred
 android-platform-tools
-android-studio
 appcleaner
 baidunetdisk
 bartender
@@ -24,11 +22,9 @@ iterm2
 java8
 macdown
 mos
-noti
 paragon-ntfs
 pdf-expert
 postman
-pycharm
 qlcolorcode
 qlimagesize
 qlmarkdown
@@ -38,6 +34,7 @@ quicklook-csv
 quicklook-json
 quicklookapk
 shadowsocksx-ng
+steam
 thunder
 transmission
 turbo-boost-switcher
