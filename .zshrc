@@ -94,7 +94,7 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="cd ~/.oh-my-zsh"
 alias ll="ls -ahl"
 alias rm="rm -i"
-alias upgrade_all="mas upgrade && brew upgrade && brew cu -ay"
+alias upgrade_all="mas upgrade && brew update && brew outdated && brew cask outdated --greedy"
 
 # zsh external settings
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh

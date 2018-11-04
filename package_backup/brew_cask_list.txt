@@ -4,6 +4,7 @@ appcleaner
 baidunetdisk
 bartender
 boom-3d
+clion
 cmdtap
 coconutbattery
 dash
@@ -17,10 +18,11 @@ google-backup-and-sync
 google-chrome
 handshaker
 iina
-intellij-idea
 iterm2
 java8
+keepingyouawake
 macdown
+mathpix-snipping-tool
 mos
 paragon-ntfs
 pdf-expert
