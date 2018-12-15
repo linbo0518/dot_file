@@ -59,7 +59,7 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  adb colored-man-pages colorize extract pyenv thefuck z
+  adb colored-man-pages colorize extract thefuck z
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -94,7 +94,7 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="cd ~/.oh-my-zsh"
 alias ll="ls -ahl"
 alias rm="rm -i"
-alias upgrade_all="mas upgrade && brew update && brew outdated && brew cask outdated --greedy"
+alias upgrade_all="mas outdated && brew update && brew outdated && brew cask outdated --greedy"
 
 # zsh external settings
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
@@ -111,3 +111,7 @@ function _pip_completion {
              PIP_AUTO_COMPLETE=1 $words[1] ) )
 }
 compctl -K _pip_completion pip
+
+# pyenv
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"

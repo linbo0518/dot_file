@@ -20,10 +20,10 @@ handshaker
 iina
 iterm2
 java8
-keepingyouawake
 macdown
 mathpix-snipping-tool
 mos
+netron
 paragon-ntfs
 pdf-expert
 postman
