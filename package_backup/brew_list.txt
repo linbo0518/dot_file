@@ -33,6 +33,7 @@ libyaml
 libzip
 lua
 m-cli
+mackup
 mas
 mpfr
 ncurses
@@ -51,6 +52,7 @@ pyenv-virtualenv
 python
 python@2
 readline
+rtmpdump
 ruby
 screenfetch
 sdl2
@@ -61,6 +63,7 @@ tbb
 thefuck
 theora
 tldr
+trash
 unrar
 vim
 webp

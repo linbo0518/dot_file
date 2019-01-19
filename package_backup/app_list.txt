@@ -1,0 +1,100 @@
+Affinity Photo.app
+Alfred 3.app
+Amphetamine.app
+App Store.app
+AppCleaner.app
+Automator.app
+Backup and Sync.app
+BaiduNetdisk_mac.app
+Bartender 3.app
+Boom 3D.app
+CLion.app
+Calculator.app
+Calendar.app
+Chess.app
+CleanMyMac X.app
+CmdTap.app
+Contacts.app
+DVD Player.app
+DaisyDisk.app
+Dash.app
+Dashboard.app
+Dictionary.app
+FaceTime.app
+Flume.app
+Font Book.app
+GitHub Desktop.app
+GlobalProtect.app
+Google Chrome.app
+HandShaker.app
+IINA.app
+Image Capture.app
+Irvue.app
+Jietu.app
+Keka.app
+Keynote.app
+LastPass.app
+Launchpad.app
+LyricsX.app
+MacDown.app
+Mail.app
+Maipo.app
+Maps.app
+Mate Translate.app
+Mathpix Snipping Tool.app
+Messages.app
+Microsoft Excel.app
+Microsoft PowerPoint.app
+Microsoft Word.app
+Mission Control.app
+Moom.app
+Mos.app
+NTFS for Mac.app
+NeteaseMusic.app
+Netron.app
+Noizio.app
+Notes.app
+Numbers.app
+PDF Expert.app
+Pages.app
+Paste.app
+Permute 3.app
+Photo Booth.app
+Photos.app
+Pocket.app
+Polarr Photo Editor.app
+PopClip.app
+Preview.app
+QQ.app
+QuickTime Player.app
+Reeder.app
+Reminders.app
+Safari.app
+ShadowsocksX-NG.app
+Siri.app
+Spark.app
+Steam.app
+Stickies.app
+System Preferences.app
+Telegram Desktop.app
+TextEdit.app
+The Unarchiver.app
+Thunder.app
+TickTick.app
+Time Machine.app
+Transmission.app
+Trello.app
+Turbo Boost Switcher.app
+Typora.app
+Utilities
+Visual Studio Code.app
+WeChat.app
+XMind.app
+balenaEtcher.app
+coconutBattery.app
+gSwitch.app
+iBooks.app
+iTerm.app
+iTunes.app
+miniQpicview.app
+网易有道词典.app

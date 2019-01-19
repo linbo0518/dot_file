@@ -94,8 +94,9 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="cd ~/.oh-my-zsh"
 alias ll="ls -ahl"
 alias rm="rm -i"
-alias upgrade_all="mas outdated && brew update && brew outdated && brew cask outdated --greedy"
-
+alias update_all="mas outdated && brew update && brew outdated && brew cask outdated --greedy"
+alias upgrade_all="mas upgrade && brew upgrade && brew cu -acy && brew cleanup --prune=0 -s"
+alias backup_all="brew list > ~/Projects/dot_file/package_backup/brew_list.txt && brew cask list > ~/Projects/dot_file/package_backup/brew_cask_list.txt && ls /Applications > ~/Projects/dot_file/package_backup/app_list.txt && cp -r ~/.zshrc ~/.curlrc ~/.aria2 ~/Projects/dot_file"
 # zsh external settings
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
