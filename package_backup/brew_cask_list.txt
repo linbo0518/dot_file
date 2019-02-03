@@ -11,7 +11,7 @@ coconutbattery
 dash
 fliqlo
 flume
-font-menlo-for-powerline
+font-hack-nerd-font
 github
 google-backup-and-sync
 google-chrome
