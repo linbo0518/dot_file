@@ -4,18 +4,17 @@ Amphetamine.app
 App Store.app
 AppCleaner.app
 Automator.app
-Backup and Sync.app
 BaiduNetdisk_mac.app
 Bartender 3.app
+Books.app
 Boom 3D.app
 CLion.app
 Calculator.app
 Calendar.app
+CheatSheet.app
 Chess.app
-CleanMyMac X.app
 CmdTap.app
 Contacts.app
-DVD Player.app
 DaisyDisk.app
 Dash.app
 Dashboard.app
@@ -24,9 +23,9 @@ FaceTime.app
 Flume.app
 Font Book.app
 GitHub Desktop.app
-GlobalProtect.app
 Google Chrome.app
 HandShaker.app
+Home.app
 IINA.app
 Image Capture.app
 Irvue.app
@@ -35,7 +34,6 @@ Keka.app
 Keynote.app
 LastPass.app
 Launchpad.app
-LyricsX.app
 MacDown.app
 Mail.app
 Maipo.app
@@ -52,6 +50,7 @@ Mos.app
 NTFS for Mac.app
 NeteaseMusic.app
 Netron.app
+News.app
 Noizio.app
 Notes.app
 Numbers.app
@@ -75,6 +74,7 @@ Siri.app
 Spark.app
 Steam.app
 Stickies.app
+Stocks.app
 System Preferences.app
 Telegram Desktop.app
 TextEdit.app
@@ -88,12 +88,12 @@ Turbo Boost Switcher.app
 Typora.app
 Utilities
 Visual Studio Code.app
+VoiceMemos.app
 WeChat.app
 XMind.app
 balenaEtcher.app
 coconutBattery.app
 gSwitch.app
-iBooks.app
 iTerm.app
 iTunes.app
 miniQpicview.app

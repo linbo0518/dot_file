@@ -5,6 +5,7 @@ baidunetdisk
 balenaetcher
 bartender
 boom-3d
+cheatsheet
 clion
 cmdtap
 coconutbattery
@@ -13,7 +14,6 @@ fliqlo
 flume
 font-hack-nerd-font
 github
-google-backup-and-sync
 google-chrome
 handshaker
 iina
@@ -21,6 +21,7 @@ iterm2
 macdown
 mathpix-snipping-tool
 mos
+neteasemusic
 netron
 paragon-ntfs
 pdf-expert
