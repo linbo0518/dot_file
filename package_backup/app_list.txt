@@ -11,7 +11,6 @@ Boom 3D.app
 CLion.app
 Calculator.app
 Calendar.app
-CheatSheet.app
 Chess.app
 CmdTap.app
 Contacts.app
@@ -29,11 +28,11 @@ Home.app
 IINA.app
 Image Capture.app
 Irvue.app
-Jietu.app
 Keka.app
 Keynote.app
 LastPass.app
 Launchpad.app
+Logitech Crayon Firmware Update.app
 MacDown.app
 Mail.app
 Maipo.app
@@ -47,6 +46,7 @@ Microsoft Word.app
 Mission Control.app
 Moom.app
 Mos.app
+Motrix.app
 NTFS for Mac.app
 NeteaseMusic.app
 Netron.app
@@ -69,8 +69,10 @@ QuickTime Player.app
 Reeder.app
 Reminders.app
 Safari.app
+Send Anywhere.app
 ShadowsocksX-NG.app
 Siri.app
+Skype.app
 Spark.app
 Steam.app
 Stickies.app
