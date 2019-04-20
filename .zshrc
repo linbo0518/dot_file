@@ -59,7 +59,7 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  adb colored-man-pages colorize extract pyenv thefuck z
+  colored-man-pages colorize extract pyenv thefuck z
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -99,7 +99,7 @@ alias upgrade_all="mas upgrade && brew upgrade && brew cu -ay"
 alias backup_all="brew list > ~/Projects/dot_file/package_backup/brew_list.txt &&\
     brew cask list > ~/Projects/dot_file/package_backup/brew_cask_list.txt &&\
     ls /Applications > ~/Projects/dot_file/package_backup/app_list.txt &&\
-    cp -r ~/.zshrc ~/.curlrc ~/.aria2 ~/.vimrc ~/.pylintrc ~/Projects/dot_file"
+    cp -r ~/.zshrc ~/.aria2 ~/.vimrc ~/.pylintrc ~/Projects/dot_file"
 
 # zsh external settings
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
