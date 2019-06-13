@@ -15,9 +15,11 @@ gcc
 gd
 gdbm
 gettext
+gflags
 giflib
 git
 glib
+glog
 gmp
 gnutls
 graphite2
@@ -39,6 +41,7 @@ libevent
 libffi
 libmpc
 libogg
+libomp
 libpng
 libsamplerate
 libsndfile

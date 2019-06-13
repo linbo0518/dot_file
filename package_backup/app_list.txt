@@ -1,5 +1,5 @@
 Affinity Photo.app
-Alfred 3.app
+Alfred 4.app
 Amphetamine.app
 App Store.app
 AppCleaner.app
@@ -12,6 +12,7 @@ CLion.app
 Calculator.app
 Calendar.app
 Chess.app
+CleanMyMac X.app
 CmdTap.app
 Contacts.app
 DaisyDisk.app
@@ -21,7 +22,9 @@ Dictionary.app
 FaceTime.app
 Flume.app
 Font Book.app
+Gemini 2.app
 GitHub Desktop.app
+GlobalProtect.app
 Google Chrome.app
 HandShaker.app
 Home.app
@@ -51,11 +54,12 @@ NTFS for Mac.app
 NeteaseMusic.app
 Netron.app
 News.app
-Noizio.app
 Notes.app
 Numbers.app
+Numi.app
 PDF Expert.app
 Pages.app
+Paragon VMDK Mounter.app
 Paste.app
 Permute 3.app
 Photo Booth.app
@@ -65,6 +69,7 @@ Polarr Photo Editor.app
 PopClip.app
 Preview.app
 QQ.app
+QQMusic.app
 QuickTime Player.app
 Reeder.app
 Reminders.app
@@ -72,12 +77,12 @@ Safari.app
 Send Anywhere.app
 ShadowsocksX-NG.app
 Siri.app
-Skype.app
 Spark.app
 Steam.app
 Stickies.app
 Stocks.app
 System Preferences.app
+TakeABreak.app
 Telegram Desktop.app
 TextEdit.app
 The Unarchiver.app

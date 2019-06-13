@@ -5,6 +5,7 @@ baidunetdisk
 balenaetcher
 bartender
 boom-3d
+brooklyn
 clion
 cmdtap
 coconutbattery
@@ -24,6 +25,7 @@ mos
 motrix
 neteasemusic
 netron
+numi
 paragon-ntfs
 pdf-expert
 permute
@@ -32,14 +34,13 @@ qlimagesize
 qlmarkdown
 qlstephen
 qlvideo
+qqmusic
 quicklook-csv
 quicklook-json
 quicklookapk
 send-anywhere
 shadowsocksx-ng
-skype
 steam
-tencent-lemon
 thunder
 transmission
 turbo-boost-switcher
