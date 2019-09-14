@@ -59,7 +59,7 @@ ZSH_THEME="agnoster"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-  colored-man-pages colorize extract pyenv thefuck z
+  colored-man-pages colorize extract pyenv rbenv thefuck z
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -116,3 +116,6 @@ function _pip_completion {
              PIP_AUTO_COMPLETE=1 $words[1] ) )
 }
 compctl -K _pip_completion pip
+
+# LC
+export LC_ALL=en_US.UTF-8

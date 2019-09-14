@@ -9,7 +9,6 @@ mxnet
 numpy
 opencv-python
 pandas
-pycocotools
 pylint
 scikit-image
 scikit-learn
