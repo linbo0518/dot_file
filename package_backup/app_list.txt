@@ -1,9 +1,12 @@
 Affinity Photo.app
 Alfred 4.app
 Amphetamine.app
+Android Studio 2.3.app
+Android Studio.app
 App Store.app
 AppCleaner.app
 Automator.app
+Backup and Sync.app
 BaiduNetdisk_mac.app
 Bartender 3.app
 Books.app
@@ -19,14 +22,12 @@ DaisyDisk.app
 Dash.app
 Dashboard.app
 Dictionary.app
+Eudic.app
 FaceTime.app
 Flume.app
 Font Book.app
-Gemini 2.app
-GitHub Desktop.app
 GlobalProtect.app
 Google Chrome.app
-HandShaker.app
 Home.app
 IINA.app
 Image Capture.app
@@ -36,12 +37,12 @@ Keynote.app
 LastPass.app
 Launchpad.app
 Logitech Crayon Firmware Update.app
+LyricsX.app
 MacDown.app
 Mail.app
 Maipo.app
 Maps.app
 Mate Translate.app
-Mathpix Snipping Tool.app
 Messages.app
 Microsoft Excel.app
 Microsoft PowerPoint.app
@@ -54,12 +55,11 @@ NTFS for Mac.app
 NeteaseMusic.app
 Netron.app
 News.app
+Noizio.app
 Notes.app
 Numbers.app
-Numi.app
 PDF Expert.app
 Pages.app
-Paragon VMDK Mounter.app
 Paste.app
 Permute 3.app
 Photo Booth.app
@@ -68,28 +68,26 @@ Pocket.app
 Polarr Photo Editor.app
 PopClip.app
 Preview.app
+Pure Writer.app
+PyCharm.app
 QQ.app
-QQMusic.app
 QuickTime Player.app
 Reeder.app
 Reminders.app
 Safari.app
-Send Anywhere.app
-ShadowsocksX-NG.app
 Siri.app
+Sourcetree.app
 Spark.app
-Steam.app
+Spotify.app
 Stickies.app
 Stocks.app
 System Preferences.app
 TakeABreak.app
-Telegram Desktop.app
+Telegram.app
 TextEdit.app
 The Unarchiver.app
-Thunder.app
 TickTick.app
 Time Machine.app
-Transmission.app
 Trello.app
 Turbo Boost Switcher.app
 Typora.app
@@ -97,11 +95,12 @@ Utilities
 Visual Studio Code.app
 VoiceMemos.app
 WeChat.app
-XMind.app
+XMind ZEN.app
 balenaEtcher.app
 coconutBattery.app
 gSwitch.app
 iTerm.app
 iTunes.app
 miniQpicview.app
+zoom.us.app
 网易有道词典.app

@@ -119,3 +119,6 @@ compctl -K _pip_completion pip
 
 # LC
 export LC_ALL=en_US.UTF-8
+
+# PARH
+export PATH="$PATH:/Users/linbo0518/Projects/flutter-dev/flutter/bin"
