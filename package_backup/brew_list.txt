@@ -95,12 +95,10 @@ pyenv
 pyenv-virtualenv
 python
 python@2
-rbenv
 readline
 rtmpdump
 rubberband
 ruby
-ruby-build
 scrcpy
 screenfetch
 sdl2

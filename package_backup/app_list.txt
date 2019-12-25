@@ -1,106 +1,112 @@
-Affinity Photo.app
-Alfred 4.app
-Amphetamine.app
-Android Studio 2.3.app
-Android Studio.app
-App Store.app
-AppCleaner.app
-Automator.app
-Backup and Sync.app
-BaiduNetdisk_mac.app
-Bartender 3.app
-Books.app
-Boom 3D.app
-CLion.app
-Calculator.app
-Calendar.app
-Chess.app
-CleanMyMac X.app
-CmdTap.app
-Contacts.app
-DaisyDisk.app
-Dash.app
-Dashboard.app
-Dictionary.app
-Eudic.app
-FaceTime.app
-Flume.app
-Font Book.app
-GlobalProtect.app
-Google Chrome.app
-Home.app
-IINA.app
-Image Capture.app
-Irvue.app
-Keka.app
-Keynote.app
-LastPass.app
-Launchpad.app
-Logitech Crayon Firmware Update.app
-LyricsX.app
-MacDown.app
-Mail.app
-Maipo.app
-Maps.app
-Mate Translate.app
-Messages.app
-Microsoft Excel.app
-Microsoft PowerPoint.app
-Microsoft Word.app
-Mission Control.app
-Moom.app
-Mos.app
-Motrix.app
-NTFS for Mac.app
-NeteaseMusic.app
-Netron.app
-News.app
-Noizio.app
-Notes.app
-Numbers.app
-PDF Expert.app
-Pages.app
-Paste.app
-Permute 3.app
-Photo Booth.app
-Photos.app
-Pocket.app
-Polarr Photo Editor.app
-PopClip.app
-Preview.app
-Pure Writer.app
-PyCharm.app
-QQ.app
-QuickTime Player.app
-Reeder.app
-Reminders.app
-Safari.app
-Siri.app
-Sourcetree.app
-Spark.app
-Spotify.app
-Stickies.app
-Stocks.app
-System Preferences.app
-TakeABreak.app
-Telegram.app
-TextEdit.app
-The Unarchiver.app
-TickTick.app
-Time Machine.app
-Trello.app
-Turbo Boost Switcher.app
-Typora.app
-Utilities
-Visual Studio Code.app
-VoiceMemos.app
-WeChat.app
-XMind ZEN.app
-balenaEtcher.app
-coconutBattery.app
-gSwitch.app
-iTerm.app
-iTunes.app
-miniQpicview.app
-zoom.us.app
-网易有道词典.app
+total 56
+drwxrwxr-x+ 111 root       admin   3.5K Dec 25 15:20 .
+drwxr-xr-x   29 root       wheel   928B Dec 11 02:49 ..
+-rw-rw-r--    1 root       admin    26K Dec 25 15:03 .DS_Store
+-rw-r--r--    1 root       wheel     0B Aug 17  2018 .localized
+drwxr-xr-x@   3 root       wheel    96B Nov 29 20:27 Affinity Photo.app
+drwxr-xr-x@   3 linbo0518  staff    96B Dec 17 05:45 Alfred 4.app
+drwxr-xr-x@   3 root       wheel    96B Nov 29 20:27 Amphetamine.app
+drwxrwxr-x@   3 linbo0518  admin    96B Sep 25 16:34 Android Studio.app
+drwxr-xr-x@   3 root       wheel    96B Jul 22 22:47 App Store.app
+drwxr-xr-x    3 linbo0518  staff    96B Nov 18  2018 AppCleaner.app
+drwxr-xr-x@   3 root       wheel    96B May 13  2019 Automator.app
+drwxr-xr-x@   3 linbo0518  staff    96B Oct 10 10:08 Backup and Sync.app
+drwxr-xr-x@   3 linbo0518  staff    96B Aug  8 00:14 BaiduNetdisk_mac.app
+drwxr-xr-x@   3 linbo0518  staff    96B Oct  4 04:33 Bartender 3.app
+drwxr-xr-x@   3 root       wheel    96B Jul 22 22:47 Books.app
+drwxr-xr-x@   3 linbo0518  staff    96B Oct 16 23:10 Boom 3D.app
+drwxr-xr-x@   3 linbo0518  staff    96B Dec 18 03:27 CLion.app
+drwxr-xr-x@   3 root       wheel    96B May 13  2019 Calculator.app
+drwxr-xr-x@   3 root       wheel    96B Jul 22 22:47 Calendar.app
+drwxr-xr-x@   3 root       wheel    96B May 13  2019 Chess.app
+drwxr-xr-x    3 linbo0518  admin    96B Dec 18 13:46 CleanMyMac X.app
+drwxr-xr-x    3 linbo0518  staff    96B Oct 21  2017 CmdTap.app
+drwxr-xr-x@   3 root       wheel    96B Jul 22 22:47 Contacts.app
+drwxr-xr-x@   3 linbo0518  staff    96B Nov 14 02:00 DaisyDisk.app
+drwxr-xr-x@   3 linbo0518  staff    96B Dec 21 03:02 Dash.app
+drwxr-xr-x@   3 root       wheel    96B May 13  2019 Dashboard.app
+drwxr-xr-x@   3 root       wheel    96B Dec 11 02:49 Dictionary.app
+drwxr-xr-x@   3 linbo0518  staff    96B Nov  5 19:51 Eudic.app
+drwxr-xr-x@   3 root       wheel    96B Jul 22 22:47 FaceTime.app
+drwxr-xr-x@   3 linbo0518  staff    96B Jun  5  2019 Flume.app
+drwxr-xr-x@   3 root       wheel    96B Jul 22 22:47 Font Book.app
+drwxr-xr-x@   4 root       wheel   128B Dec  1 14:32 Gemini 2 The Duplicate Finder.appdownload
+drwxr-xr-x    3 root       wheel    96B Dec  1 14:32 Gemini 2.app
+drwxrwxr-x    3 root       wheel    96B Sep 19 17:14 GlobalProtect.app
+drwxr-xr-x@   3 linbo0518  staff    96B Dec 13 21:29 Google Chrome.app
+drwxr-xr-x@   3 root       wheel    96B Jul 22 22:47 Home.app
+drwxr-xr-x@   3 linbo0518  staff    96B May 27  2019 IINA.app
+drwxr-xr-x@   3 root       wheel    96B May 13  2019 Image Capture.app
+drwxr-xr-x    3 root       wheel    96B Dec  4 20:02 Install macOS Catalina.app
+drwxr-xr-x@   3 root       wheel    96B Nov 29 20:29 Irvue.app
+drwxr-xr-x@   3 linbo0518  staff    96B Dec  7 07:12 Keka.app
+drwxr-xr-x@   3 root       wheel    96B Nov 29 20:28 Keynote.app
+drwxr-xr-x@   3 root       wheel    96B Nov 29 20:25 LastPass.app
+drwxr-xr-x@   3 root       wheel    96B May 13  2019 Launchpad.app
+drwxr-xr-x@   3 linbo0518  staff    96B Sep 16 02:06 LyricsX.app
+drwxr-xr-x@   3 linbo0518  staff    96B Nov 18 12:11 MacDown.app
+drwxr-xr-x@   3 linbo0518  staff    96B Dec  4 15:10 Macs Fan Control.app
+drwxr-xr-x@   3 root       wheel    96B Jul 22 22:47 Mail.app
+drwxr-xr-x    3 root       wheel    96B Feb 25  2019 Maipo.app
+drwxr-xr-x@   3 root       wheel    96B Jul 22 22:47 Maps.app
+drwxr-xr-x@   3 root       wheel    96B Nov 29 20:27 Mate Translate.app
+drwxr-xr-x@   3 root       wheel    96B Dec 11 02:49 Messages.app
+drwxrwxr-x    3 root       wheel    96B Dec 25 14:54 Microsoft Excel.app
+drwxrwxr-x    3 root       wheel    96B Dec 25 14:52 Microsoft PowerPoint.app
+drwxrwxr-x    3 root       wheel    96B Dec 25 14:57 Microsoft Word.app
+drwxr-xr-x@   3 root       wheel    96B May 13  2019 Mission Control.app
+drwxr-xr-x    3 root       wheel    96B Dec  9 10:39 Moom.app
+drwxr-xr-x@   3 linbo0518  staff    96B Jun 23  2019 Motrix.app
+drwxr-xr-x    3 root       wheel    96B Oct  5 15:50 NTFS for Mac.app
+drwxr-xr-x@   3 linbo0518  staff    96B Dec 12 02:45 NeteaseMusic.app
+drwxr-xr-x@   3 linbo0518  staff    96B Dec 23 18:33 Netron.app
+drwxr-xr-x@   3 root       wheel    96B Dec 11 02:49 News.app
+drwxr-xr-x@   3 root       wheel    96B Nov 29 20:25 Noizio.app
+drwxr-xr-x@   3 root       wheel    96B Jul 22 22:47 Notes.app
+drwxr-xr-x@   3 root       wheel    96B Nov 29 20:26 Numbers.app
+drwxr-xr-x@   3 linbo0518  staff    96B Nov  2 10:00 OpenEmu.app
+drwxr-xr-x@   3 linbo0518  staff    96B Dec 12 01:21 PDF Expert.app
+drwxr-xr-x@   3 root       wheel    96B Nov 29 20:28 Pages.app
+drwxr-xr-x    3 root       wheel    96B Nov 22 14:55 Paste.app
+drwxr-xr-x@   3 linbo0518  staff    96B Dec  4 05:53 Permute 3.app
+drwxr-xr-x@   3 root       wheel    96B May 13  2019 Photo Booth.app
+drwxr-xr-x@   3 root       wheel    96B Dec 11 02:49 Photos.app
+drwxr-xr-x@   3 root       wheel    96B Nov 29 20:26 Pocket.app
+drwxr-xr-x    3 root       wheel    96B Dec 25 14:33 Polarr Photo Editor.app
+drwxr-xr-x    3 root       wheel    96B Dec 11 09:13 PopClip.app
+drwxr-xr-x@   3 root       wheel    96B May 13  2019 Preview.app
+drwxr-xr-x@   3 linbo0518  staff    96B Dec 18 09:49 PyCharm.app
+drwxr-xr-x@   3 linbo0518  staff    96B Dec 19 12:11 QQ.app
+drwxr-xr-x@   3 root       wheel    96B Jul 22 22:47 QuickTime Player.app
+drwxr-xr-x    3 root       wheel    96B Dec 25 14:33 Reeder.app
+drwxr-xr-x@   3 root       wheel    96B May 13  2019 Reminders.app
+drwxr-xr-x@   3 root       wheel    96B Dec 11 02:41 Safari.app
+drwxr-xr-x@   3 root       wheel    96B May 13  2019 Siri.app
+drwxr-xr-x@   3 linbo0518  staff    96B Oct 27 21:40 Sourcetree.app
+drwxr-xr-x    3 root       wheel    96B Dec  3 13:44 Spark.app
+drwxr-xr-x    3 linbo0518  staff    96B Dec  7 21:38 Spotify.app
+drwxr-xr-x@   3 linbo0518  staff    96B Dec  3 02:51 Steam.app
+drwxr-xr-x@   3 root       wheel    96B May 13  2019 Stickies.app
+drwxr-xr-x@   3 root       wheel    96B Jul 22 22:47 Stocks.app
+drwxr-xr-x@   3 root       wheel    96B Jul 22 22:47 System Preferences.app
+drwxr-xr-x@   3 linbo0518  staff    96B Oct 30 08:49 Telegram.app
+drwxr-xr-x@   3 root       wheel    96B May 13  2019 TextEdit.app
+drwxr-xr-x@   3 linbo0518  staff    96B Feb  7  2019 The Unarchiver.app
+drwxr-xr-x@   3 linbo0518  staff    96B Dec 18 19:43 TickTick.app
+drwxr-xr-x@   3 root       wheel    96B May 13  2019 Time Machine.app
+drwxr-xr-x    3 root       wheel    96B Oct 21 21:16 Trello.app
+drwxr-xr-x@   3 linbo0518  staff    96B Nov 22 18:08 Turbo Boost Switcher.app
+drwxr-xr-x@   3 linbo0518  staff    96B Dec 24 11:17 Typora.app
+drwxr-xr-x+  21 root       admin   672B Feb 19  2019 Utilities
+drwxr-xr-x@   3 linbo0518  staff    96B Nov 22 08:38 Visual Studio Code.app
+drwxr-xr-x@   3 root       wheel    96B Jul 22 22:47 VoiceMemos.app
+drwxr-xr-x@   3 linbo0518  staff    96B Nov 28 03:21 WeChat.app
+drwxr-xr-x@   3 linbo0518  staff    96B Nov 18 02:27 XMind ZEN.app
+drwxr-xr-x@   3 linbo0518  staff    96B Dec 13 06:14 balenaEtcher.app
+drwxr-xr-x@   3 linbo0518  staff    96B Oct 11 10:50 coconutBattery.app
+drwxr-xr-x@   3 linbo0518  staff    96B Sep  2 15:35 gSwitch.app
+drwxr-xr-x@   3 linbo0518  staff    96B Nov 27 06:10 iMazing.app
+drwxr-xr-x@   3 linbo0518  staff    96B Nov 17 19:42 iTerm.app
+drwxr-xr-x@   3 root       wheel    96B Jul 22 22:47 iTunes.app
+drwxrwxr-x    3 root       admin    96B Dec 16 03:43 zoom.us.app
+drwxr-xr-x@   3 linbo0518  staff    96B Oct 28 01:50 网易有道词典.app

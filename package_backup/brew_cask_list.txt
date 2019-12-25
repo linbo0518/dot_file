@@ -20,14 +20,16 @@ google-backup-and-sync
 google-chrome
 gswitch
 iina
+imazing
 iterm2
 keka
 lyricsx
 macdown
-mos
+macs-fan-control
 motrix
 neteasemusic
 netron
+openemu
 paragon-ntfs
 pdf-expert
 permute
@@ -43,6 +45,7 @@ quicklook-json
 quicklookapk
 sourcetree
 spotify
+steam
 telegram
 the-unarchiver
 ticktick
