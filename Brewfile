@@ -77,6 +77,7 @@ mas "Keynote", id: 409183694
 mas "Maipo", id: 789066512
 mas "Mate Translate", id: 1005088137
 mas "Moom", id: 419330170
+mas "Notability", id: 736189492
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Pocket", id: 568494494
