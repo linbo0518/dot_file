@@ -58,9 +58,6 @@ cask "qlmarkdown"
 cask "qlstephen"
 cask "qlvideo"
 cask "qq"
-cask "quicklook-csv"
-cask "quicklook-json"
-cask "quicklookapk"
 cask "sourcetree"
 cask "telegram"
 cask "the-unarchiver"
@@ -85,4 +82,3 @@ mas "PopClip", id: 445189367
 mas "Reeder", id: 880001334
 mas "Spark", id: 1176895641
 mas "Trello", id: 1278508951
-mas "Twitter", id: 1482454543
