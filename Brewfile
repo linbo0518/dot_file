@@ -66,6 +66,7 @@ cask "turbo-boost-switcher"
 cask "typora"
 cask "visual-studio-code"
 cask "wechat"
+cask "wwdc"
 cask "xmind-zen"
 mas "Affinity Photo", id: 824183456
 mas "Amphetamine", id: 937984704
