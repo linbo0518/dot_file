@@ -3,7 +3,7 @@ botorch
 Cython
 gluoncv
 jupyter
-jupyter_contrib_nbextensions
+jupyter-contrib-nbextensions
 jupyter-nbextensions-configurator
 jupyterlab
 matplotlib
