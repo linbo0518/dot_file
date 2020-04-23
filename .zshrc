@@ -104,7 +104,7 @@ alias ll="ls -ahl"
 alias rm="rm -i"
 alias update_all="mas outdated && brew update && brew outdated && brew cask outdated --greedy"
 alias upgrade_all="mas upgrade && brew upgrade && brew cu -ay"
-alias backup_all="cp -r ~/.zshrc ~/.aria2 ~/.pylintrc ~/Projects/dot_file"
+alias backup_all="cp -r ~/.zshrc ~/.vimrc ~/.aria2 ~/.pylintrc ~/Projects/dot_file"
 
 # zsh external settings
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
