@@ -3,15 +3,13 @@ botorch
 Cython
 gluoncv
 jupyter
-jupyter-contrib-nbextensions
-jupyter-nbextensions-configurator
-jupyterlab
 matplotlib
 mxnet
 numpy
 opencv-python
 pandas
 pylint
+rope
 scikit-image
 scikit-learn
 tensorboardX
