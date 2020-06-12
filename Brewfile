@@ -6,6 +6,7 @@ tap "homebrew/cask-fonts"
 tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "vitorgalvao/tiny-scripts"
+brew "antigen"
 brew "aria2"
 brew "cmake"
 brew "git"
@@ -20,7 +21,6 @@ brew "tldr"
 brew "unrar"
 brew "vim"
 brew "zsh"
-brew "zsh-autosuggestions"
 brew "vitorgalvao/tiny-scripts/cask-repair"
 cask "alfred"
 cask "appcleaner"
@@ -38,7 +38,6 @@ cask "eudic"
 cask "fliqlo"
 cask "flume"
 cask "font-hack-nerd-font"
-cask "google-backup-and-sync"
 cask "google-chrome"
 cask "gswitch"
 cask "iina"
@@ -70,6 +69,7 @@ cask "wwdc"
 cask "xmind-zen"
 mas "Affinity Photo", id: 824183456
 mas "Amphetamine", id: 937984704
+mas "GoodNotes", id: 1444383602
 mas "Irvue", id: 1039633667
 mas "Keynote", id: 409183694
 mas "Maipo", id: 789066512
