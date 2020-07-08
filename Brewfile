@@ -15,6 +15,7 @@ brew "llvm"
 brew "mas"
 brew "pyenv"
 brew "pyenv-virtualenv"
+brew "python@3.8"
 brew "screenfetch"
 brew "speedtest-cli"
 brew "tldr"
@@ -36,7 +37,6 @@ cask "daisydisk"
 cask "dash"
 cask "eudic"
 cask "fliqlo"
-cask "flume"
 cask "font-hack-nerd-font"
 cask "google-chrome"
 cask "gswitch"
@@ -65,10 +65,10 @@ cask "turbo-boost-switcher"
 cask "typora"
 cask "visual-studio-code"
 cask "wechat"
-cask "wwdc"
 cask "xmind-zen"
 mas "Affinity Photo", id: 824183456
 mas "Amphetamine", id: 937984704
+mas "Days Matter", id: 494500492
 mas "GoodNotes", id: 1444383602
 mas "Irvue", id: 1039633667
 mas "Keynote", id: 409183694
