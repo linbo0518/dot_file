@@ -1,14 +1,15 @@
 albumentations
-botorch
+beautifulsoup4
 Cython
 gluoncv
-jupyter
+jupyterlab
 matplotlib
 mxnet
 numpy
 opencv-python
 pandas
 pylint
+pytest
 rope
 scikit-image
 scikit-learn
