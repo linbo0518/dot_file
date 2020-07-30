@@ -2,9 +2,9 @@ albumentations
 beautifulsoup4
 Cython
 gluoncv
-jupyterlab
 matplotlib
 mxnet
+notebook
 numpy
 opencv-python
 pandas

@@ -57,18 +57,22 @@ cask "qlmarkdown"
 cask "qlstephen"
 cask "qlvideo"
 cask "qq"
+cask "qqmusic"
 cask "sourcetree"
+cask "spotify"
 cask "telegram"
 cask "the-unarchiver"
 cask "ticktick"
 cask "turbo-boost-switcher"
 cask "typora"
+cask "v2rayu"
 cask "visual-studio-code"
 cask "wechat"
 cask "xmind-zen"
 mas "Affinity Photo", id: 824183456
 mas "Amphetamine", id: 937984704
 mas "Days Matter", id: 494500492
+mas "Gemini 2", id: 1090488118
 mas "GoodNotes", id: 1444383602
 mas "Irvue", id: 1039633667
 mas "Keynote", id: 409183694
