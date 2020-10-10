@@ -1,5 +1,4 @@
 albumentations
-beautifulsoup4
 Cython
 gluoncv
 matplotlib
@@ -13,11 +12,8 @@ pytest
 rope
 scikit-image
 scikit-learn
-tensorboardX
 tensorflow
-thop
 torch
-torchsummary
 torchvision
 tqdm
 yapf

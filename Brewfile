@@ -25,7 +25,6 @@ brew "zsh"
 brew "vitorgalvao/tiny-scripts/cask-repair"
 cask "alfred"
 cask "appcleaner"
-cask "baidunetdisk"
 cask "balenaetcher"
 cask "bartender"
 cask "boom-3d"
@@ -59,12 +58,10 @@ cask "qlvideo"
 cask "qq"
 cask "qqmusic"
 cask "sourcetree"
-cask "spotify"
 cask "telegram"
 cask "the-unarchiver"
 cask "ticktick"
 cask "turbo-boost-switcher"
-cask "typora"
 cask "v2rayu"
 cask "visual-studio-code"
 cask "wechat"
@@ -72,7 +69,6 @@ cask "xmind-zen"
 mas "Affinity Photo", id: 824183456
 mas "Amphetamine", id: 937984704
 mas "Days Matter", id: 494500492
-mas "Gemini 2", id: 1090488118
 mas "GoodNotes", id: 1444383602
 mas "Irvue", id: 1039633667
 mas "Keynote", id: 409183694
@@ -84,6 +80,5 @@ mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Pocket", id: 568494494
 mas "PopClip", id: 445189367
-mas "Reeder", id: 880001334
+mas "Reeder", id: 1449412482
 mas "Spark", id: 1176895641
-mas "Trello", id: 1278508951

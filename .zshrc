@@ -44,20 +44,20 @@ function _pip_completion {
 }
 compctl -K _pip_completion pip
 
-# proxy
-export ALL_PROXY=http://127.0.0.1:1087
-
-# llvm
-export PATH="/usr/local/opt/llvm/bin:$PATH"
-
 # alias
 alias ll="ls -ahl"
 alias rm="rm -i"
-alias update_all="mas outdated && brew update && brew outdated && brew cask outdated --greedy"
+alias update_all="mas outdated && brew update && brew outdated && brew outdated --cask --greedy"
 alias upgrade_all="mas upgrade && brew upgrade && brew cu -ay"
-alias backup_all="cp -r ~/.zshrc ~/.vimrc ~/.pylintrc ~/Projects/dot_file"
+alias backup_all="cp -r ~/.zshrc ~/Projects/dot_file"
 alias set_proxy="export ALL_PROXY=http://127.0.0.1:1087"
 alias unset_proxy="unset ALL_PROXY"
+
+# Proxy
+export ALL_PROXY=http://127.0.0.1:1087
+
+# LLVM
+export PATH="/usr/local/opt/llvm/bin:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
