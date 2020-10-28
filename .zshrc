@@ -48,8 +48,8 @@ compctl -K _pip_completion pip
 alias ll="ls -ahl"
 alias rm="rm -i"
 alias update_all="mas outdated && brew update && brew outdated && brew outdated --cask --greedy"
-alias upgrade_all="mas upgrade && brew upgrade && brew cu -ay"
-alias backup_all="cp -r ~/.zshrc ~/Projects/dot_file"
+alias upgrade_all="mas upgrade && brew upgrade && brew upgrade --cask"
+alias backup_all="cp -r ~/.zshrc ~/Projects/dot_file && brew bundle dump && mv ./Brewfile ~/Projects/dot_file"
 alias set_proxy="export ALL_PROXY=http://127.0.0.1:1087"
 alias unset_proxy="unset ALL_PROXY"
 
