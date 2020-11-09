@@ -10,10 +10,8 @@ pandas
 pylint
 pytest
 rope
-scikit-image
 scikit-learn
 tensorflow
 torch
 torchvision
 tqdm
-yapf
