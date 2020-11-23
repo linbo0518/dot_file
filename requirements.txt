@@ -1,4 +1,5 @@
 albumentations
+black
 Cython
 gluoncv
 matplotlib
