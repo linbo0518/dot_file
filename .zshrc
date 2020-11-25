@@ -30,7 +30,6 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen apply
 
 # config
-DEFAULT_USER="$USER"
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
 
 # pip zsh completion
@@ -44,20 +43,34 @@ function _pip_completion {
 }
 compctl -K _pip_completion pip
 
+# path variable
+BACKUP_DIR="~/Projects/dot_file"
+BREW_BOTTLE_DIR="/usr/local/opt"
+
 # alias
 alias ll="ls -ahl"
 alias rm="rm -i"
 alias update_all="mas outdated && brew update && brew outdated && brew outdated --cask --greedy"
-alias upgrade_all="mas upgrade && brew upgrade && brew upgrade --cask"
-alias backup_all="cp -r ~/.zshrc ~/Projects/dot_file && brew bundle dump && mv ./Brewfile ~/Projects/dot_file"
+alias upgrade_all="mas upgrade && brew upgrade && brew upgrade --cask && brew cu -ayc"
+alias backup_all="cp ~/.zshrc $BACKUP_DIR && brew bundle dump -f --file $BACKUP_DIR/Brewfile && pip freeze > $BACKUP_DIR/requirements.txt"
 alias set_proxy="export ALL_PROXY=http://127.0.0.1:1087"
 alias unset_proxy="unset ALL_PROXY"
 
-# Proxy
+# proxy
 export ALL_PROXY=http://127.0.0.1:1087
 
-# LLVM
-export PATH="/usr/local/opt/llvm/bin:$PATH"
+# homebrew sbin
+export PATH="/usr/local/sbin:$PATH"
+
+# llvm
+export PATH="$BREW_BOTTLE_DIR/llvm/bin:$PATH"
+
+# zlib (for python compiling)
+export LDFLAGS="-L$BREW_BOTTLE_DIR/zlib/lib"
+export CPPFLAGS="-I$BREW_BOTTLE_DIR/zlib/include"
+# bzip2 (for python compiling)
+export LDFLAGS="-L$BREW_BOTTLE_DIR/bzip2/lib $LDFLAGS"
+export CPPFLAGS="-I$BREW_BOTTLE_DIR/bzip2/include $CPPFLAGS"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
