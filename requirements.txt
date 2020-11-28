@@ -2,13 +2,12 @@ albumentations
 black
 Cython
 gluoncv
+jupyter
 matplotlib
 mxnet
-notebook
 numpy
 opencv-python
 pandas
-pylint
 pytest
 rope
 scikit-learn
