@@ -1,16 +1,13 @@
 tap "buo/cask-upgrade"
 tap "homebrew/bundle"
 tap "homebrew/cask"
-tap "homebrew/cask-drivers"
 tap "homebrew/cask-fonts"
-tap "homebrew/cask-versions"
 tap "homebrew/core"
-tap "vitorgalvao/tiny-scripts"
 brew "antigen"
 brew "cmake"
 brew "git"
+brew "glances"
 brew "googletest"
-brew "htop"
 brew "llvm"
 brew "mas"
 brew "pandoc"
@@ -21,7 +18,6 @@ brew "speedtest-cli"
 brew "tldr"
 brew "vim"
 brew "zsh"
-brew "vitorgalvao/tiny-scripts/cask-repair"
 cask "alfred"
 cask "appcleaner"
 cask "balenaetcher"
@@ -83,3 +79,4 @@ mas "Pocket", id: 568494494
 mas "PopClip", id: 445189367
 mas "Reeder", id: 1449412482
 mas "Spark", id: 1176895641
+mas "Xcode", id: 497799835

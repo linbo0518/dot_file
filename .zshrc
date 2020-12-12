@@ -19,7 +19,6 @@ antigen bundle colored-man-pages
 antigen bundle colorize
 antigen bundle command-not-found
 antigen bundle extract
-antigen bundle pip
 antigen bundle pyenv
 antigen bundle z
 antigen bundle zsh-users/zsh-autosuggestions
@@ -50,8 +49,8 @@ BREW_BOTTLE_DIR="/usr/local/opt"
 # alias
 alias ll="ls -ahl"
 alias rm="rm -i"
-alias update_all="mas outdated && brew update && brew outdated && brew outdated --cask --greedy"
-alias upgrade_all="mas upgrade && brew upgrade && brew upgrade --cask && brew cu -ayc"
+alias update_all="mas outdated && brew update -v && brew outdated -v --greedy"
+alias upgrade_all="mas upgrade && brew upgrade && brew cu -ayc"
 alias backup_all="cp ~/.zshrc $BACKUP_DIR && brew bundle dump -f --file $BACKUP_DIR/Brewfile && pip freeze > $BACKUP_DIR/requirements.txt"
 alias set_proxy="export ALL_PROXY=http://127.0.0.1:1087"
 alias unset_proxy="unset ALL_PROXY"
@@ -65,12 +64,13 @@ export PATH="/usr/local/sbin:$PATH"
 # llvm
 export PATH="$BREW_BOTTLE_DIR/llvm/bin:$PATH"
 
-# zlib (for python compiling)
-export LDFLAGS="-L$BREW_BOTTLE_DIR/zlib/lib"
-export CPPFLAGS="-I$BREW_BOTTLE_DIR/zlib/include"
-# bzip2 (for python compiling)
-export LDFLAGS="-L$BREW_BOTTLE_DIR/bzip2/lib $LDFLAGS"
-export CPPFLAGS="-I$BREW_BOTTLE_DIR/bzip2/include $CPPFLAGS"
+# python deps
+export LDFLAGS=""
+export CPPFLAGS=""
+export LDFLAGS="-L/usr/local/opt/zlib/lib $LDFLAGS"
+export CPPFLAGS="-I/usr/local/opt/zlib/include $CPPFLAGS"
+export LDFLAGS="-L/usr/local/opt/bzip2/lib $LDFLAGS"
+export CPPFLAGS="-I/usr/local/opt/bzip2/include $CPPFLAGS"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
