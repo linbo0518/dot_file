@@ -70,7 +70,7 @@ export PATH="/usr/local/sbin:$PATH"
 # export CPPFLAGS="-I$BREW_BOTTLE_DIR/bzip2/include $CPPFLAGS"
 
 # homebrew
-export HOMEBREW_GITHUB_API_TOKEN=8e1abd96cfa1a662bf0436e57d00dca25027cbd9
+export HOMEBREW_GITHUB_API_TOKEN=token_paste_here
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
