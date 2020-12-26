@@ -8,7 +8,6 @@ mxnet
 numpy
 opencv-python
 pandas
-pylint
 pytest
 rope
 scikit-learn

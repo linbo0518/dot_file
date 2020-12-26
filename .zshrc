@@ -61,16 +61,16 @@ export ALL_PROXY=http://127.0.0.1:1087
 # homebrew sbin
 export PATH="/usr/local/sbin:$PATH"
 
-# llvm
-export PATH="$BREW_BOTTLE_DIR/llvm/bin:$PATH"
+# # compile flags 
+# export LDFLAGS=""
+# export CPPFLAGS=""
+# export LDFLAGS="-L$BREW_BOTTLE_DIR/zlib/lib $LDFLAGS"
+# export CPPFLAGS="-I$BREW_BOTTLE_DIR/zlib/include $CPPFLAGS"
+# export LDFLAGS="-L$BREW_BOTTLE_DIR/bzip2/lib $LDFLAGS"
+# export CPPFLAGS="-I$BREW_BOTTLE_DIR/bzip2/include $CPPFLAGS"
 
-# python deps
-export LDFLAGS=""
-export CPPFLAGS=""
-export LDFLAGS="-L/usr/local/opt/zlib/lib $LDFLAGS"
-export CPPFLAGS="-I/usr/local/opt/zlib/include $CPPFLAGS"
-export LDFLAGS="-L/usr/local/opt/bzip2/lib $LDFLAGS"
-export CPPFLAGS="-I/usr/local/opt/bzip2/include $CPPFLAGS"
+# homebrew
+export HOMEBREW_GITHUB_API_TOKEN=8e1abd96cfa1a662bf0436e57d00dca25027cbd9
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
