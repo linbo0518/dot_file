@@ -42,7 +42,6 @@ cask "mos"
 cask "motrix"
 cask "neteasemusic"
 cask "netron"
-cask "paper"
 cask "paragon-ntfs"
 cask "pdf-expert"
 cask "permute"
@@ -67,6 +66,7 @@ cask "xmind-zen"
 mas "Affinity Photo", id: 824183456
 mas "Amphetamine", id: 937984704
 mas "Days Matter", id: 494500492
+mas "Irvue", id: 1039633667
 mas "Keynote", id: 409183694
 mas "Maipo", id: 789066512
 mas "Mate Translate", id: 1005088137
