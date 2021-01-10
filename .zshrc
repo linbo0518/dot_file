@@ -44,7 +44,6 @@ compctl -K _pip_completion pip
 
 # path variable
 BACKUP_DIR="~/Projects/dot_file"
-BREW_BOTTLE_DIR="/usr/local/opt"
 
 # alias
 alias ll="ls -ahl"
@@ -60,14 +59,6 @@ export ALL_PROXY=http://127.0.0.1:1087
 
 # homebrew sbin
 export PATH="/usr/local/sbin:$PATH"
-
-# # compile flags 
-# export LDFLAGS=""
-# export CPPFLAGS=""
-# export LDFLAGS="-L$BREW_BOTTLE_DIR/zlib/lib $LDFLAGS"
-# export CPPFLAGS="-I$BREW_BOTTLE_DIR/zlib/include $CPPFLAGS"
-# export LDFLAGS="-L$BREW_BOTTLE_DIR/bzip2/lib $LDFLAGS"
-# export CPPFLAGS="-I$BREW_BOTTLE_DIR/bzip2/include $CPPFLAGS"
 
 # homebrew
 export HOMEBREW_GITHUB_API_TOKEN=token_paste_here
