@@ -78,4 +78,5 @@ mas "Pocket", id: 568494494
 mas "PopClip", id: 445189367
 mas "Reeder", id: 1449412482
 mas "Spark", id: 1176895641
+mas "VVebo", id: 670910957
 mas "Xcode", id: 497799835
