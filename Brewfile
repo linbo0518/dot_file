@@ -15,6 +15,7 @@ brew "pyenv"
 brew "pyenv-virtualenv"
 brew "speedtest-cli"
 brew "tldr"
+brew "tmux"
 brew "vim"
 brew "zsh"
 cask "1password"
@@ -53,25 +54,24 @@ cask "qlstephen"
 cask "qlvideo"
 cask "qq"
 cask "qqmusic"
+cask "sogouinput"
 cask "sourcetree"
 cask "telegram"
 cask "the-unarchiver"
-cask "ticktick"
 cask "turbo-boost-switcher"
 cask "typora"
 cask "v2rayu"
 cask "visual-studio-code"
 cask "wechat"
 cask "xmind-zen"
+cask "zotero"
 mas "Affinity Photo", id: 824183456
 mas "Amphetamine", id: 937984704
-mas "Days Matter", id: 494500492
 mas "Irvue", id: 1039633667
 mas "Keynote", id: 409183694
 mas "Maipo", id: 789066512
 mas "Mate Translate", id: 1005088137
 mas "Moom", id: 419330170
-mas "Notability", id: 736189492
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Pocket", id: 568494494
