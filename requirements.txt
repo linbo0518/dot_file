@@ -9,6 +9,7 @@ pycocotools
 pytest
 rope
 scikit-learn
+scipy
 tensorboard
 torch
 torchvision
