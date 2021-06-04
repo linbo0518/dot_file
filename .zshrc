@@ -19,7 +19,6 @@ antigen bundle colored-man-pages
 antigen bundle colorize
 antigen bundle command-not-found
 antigen bundle extract
-antigen bundle pyenv
 antigen bundle z
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
@@ -30,6 +29,9 @@ antigen apply
 
 # config
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
+
+# pyenv
+eval "$(pyenv init -)"
 
 # pip zsh completion
 function _pip_completion {
@@ -50,12 +52,12 @@ alias ll="ls -ahl"
 alias rm="rm -i"
 alias update_all="brew update -v && brew outdated -v --greedy"
 alias upgrade_all="brew upgrade && brew cu -ayc"
-alias backup_all="cp ~/.zshrc $BACKUP_DIR && brew bundle dump -f --file $BACKUP_DIR/Brewfile && pip freeze > $BACKUP_DIR/requirements.txt"
+alias backup_all="cp ~/.zshrc ~/.zprofile ~/.vimrc $BACKUP_DIR && brew bundle dump -f --file $BACKUP_DIR/Brewfile && pip freeze > $BACKUP_DIR/requirements.txt"
 alias set_proxy="export ALL_PROXY=http://127.0.0.1:1087"
 alias unset_proxy="unset ALL_PROXY"
 
 # proxy
-export ALL_PROXY=http://127.0.0.1:1087
+# export ALL_PROXY=http://127.0.0.1:1087
 
 # homebrew sbin
 export PATH="/usr/local/sbin:$PATH"
