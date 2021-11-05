@@ -50,12 +50,9 @@ alias ll="ls -ahl"
 alias rm="rm -i"
 alias update_all="brew update -v && brew outdated -v --greedy"
 alias upgrade_all="brew upgrade && brew cu -ayc"
-alias backup_all="cp ~/.zshrc ~/.vimrc ~/.zprofile $BACKUP_DIR && brew bundle dump -f --file $BACKUP_DIR/Brewfile && pip freeze > $BACKUP_DIR/requirements.txt"
+alias backup_all="cp ~/.zshrc ~/.vimrc ~/.zprofile ~/.tmux.conf ~/.tmux.conf.local $BACKUP_DIR && brew bundle dump -f --file $BACKUP_DIR/Brewfile && pip freeze > $BACKUP_DIR/requirements.txt"
 alias set_proxy="export ALL_PROXY=http://127.0.0.1:1087"
 alias unset_proxy="unset ALL_PROXY"
-
-# proxy
-# export ALL_PROXY=http://127.0.0.1:1087
 
 # homebrew sbin
 export PATH="/usr/local/sbin:$PATH"
