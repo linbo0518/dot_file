@@ -68,6 +68,7 @@ cask "v2rayu"
 cask "visual-studio-code"
 cask "wechat"
 cask "xmind-zen"
+cask "zoom"
 cask "zotero"
 mas "Affinity Photo", id: 824183456
 mas "Amphetamine", id: 937984704
@@ -82,3 +83,4 @@ mas "Pocket", id: 568494494
 mas "PopClip", id: 445189367
 mas "Reeder", id: 1449412482
 mas "Spark", id: 1176895641
+mas "TestFlight", id: 899247664
