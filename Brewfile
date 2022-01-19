@@ -5,14 +5,13 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 brew "antigen"
 brew "cmake"
+brew "fd"
 brew "git"
 brew "glances"
 brew "mas"
-brew "pandoc"
 brew "pyenv"
 brew "pyenv-virtualenv"
 brew "speedtest-cli"
-brew "tcl-tk"
 brew "tldr"
 brew "tmux"
 brew "vim"
@@ -77,6 +76,7 @@ mas "Irvue", id: 1039633667
 mas "Keynote", id: 409183694
 mas "Maipo", id: 789066512
 mas "Mate Translate", id: 1005088137
+mas "MenubarX", id: 1575588022
 mas "Moom", id: 419330170
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
