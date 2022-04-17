@@ -5,6 +5,10 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# variable
+BACKUP_DIR="${HOME}/Projects/dot_file"
+V2RAY_PROXY="http://127.0.0.1:1087"
+
 # antigen
 source /usr/local/share/antigen/antigen.zsh
 
@@ -20,6 +24,7 @@ antigen bundle colorize
 antigen bundle command-not-found
 antigen bundle extract
 antigen bundle pyenv
+antigen bundle rust
 antigen bundle z
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
@@ -43,16 +48,13 @@ function _pip_completion {
 }
 compctl -K _pip_completion pip
 
-# path variable
-BACKUP_DIR="~/Projects/dot_file"
-
 # alias
 alias ll="ls -ahl"
 alias rm="rm -i"
 alias update_all="brew update -v && brew outdated -v --greedy"
 alias upgrade_all="brew upgrade && brew cu -ayc"
 alias backup_all="cp ~/.zshrc ~/.vimrc ~/.zprofile ~/.tmux.conf ~/.tmux.conf.local $BACKUP_DIR && brew bundle dump -f --file $BACKUP_DIR/Brewfile && pip freeze > $BACKUP_DIR/requirements.txt"
-alias set_proxy="export http_proxy=http://127.0.0.1:1087;export https_proxy=http://127.0.0.1:1087;export ALL_PROXY=http://127.0.0.1:1087"
+alias set_proxy="export http_proxy=${V2RAY_PROXY}; export https_proxy=${V2RAY_PROXY}; export ALL_PROXY=${V2RAY_PROXY}"
 alias unset_proxy="unset http_proxy https_proxy ALL_PROXY"
 
 # homebrew sbin
