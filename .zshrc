@@ -1,3 +1,6 @@
+# Fig pre block. Keep at the top of this file.
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && . "$HOME/.fig/shell/zshrc.pre.zsh"
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -54,8 +57,8 @@ alias rm="rm -i"
 alias update_all="brew update -v && brew outdated -v --greedy"
 alias upgrade_all="brew upgrade && brew cu -ayc"
 alias backup_all="cp ~/.zshrc ~/.vimrc ~/.zprofile ~/.tmux.conf ~/.tmux.conf.local $BACKUP_DIR && brew bundle dump -f --file $BACKUP_DIR/Brewfile && pip freeze > $BACKUP_DIR/requirements.txt"
-alias set_proxy="export http_proxy=${V2RAY_PROXY}; export https_proxy=${V2RAY_PROXY}; export ALL_PROXY=${V2RAY_PROXY}"
-alias unset_proxy="unset http_proxy https_proxy ALL_PROXY"
+alias proxy_on="export http_proxy=${V2RAY_PROXY}; export https_proxy=${V2RAY_PROXY}; export all_proxy=${V2RAY_PROXY}"
+alias proxy_off="unset http_proxy https_proxy all_proxy"
 
 # homebrew sbin
 export PATH="/usr/local/sbin:$PATH"
@@ -65,3 +68,6 @@ export HOMEBREW_GITHUB_API_TOKEN=token_paste_here
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Fig post block. Keep at the bottom of this file.
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
