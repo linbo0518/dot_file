@@ -1,6 +1,5 @@
 # Fig pre block. Keep at the top of this file.
-[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && . "$HOME/.fig/shell/zshrc.pre.zsh"
-
+[[ -f "$HOME/.fig/shell/zshrc.pre.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.pre.zsh"
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -10,7 +9,7 @@ fi
 
 # variable
 BACKUP_DIR="${HOME}/Projects/dot_file"
-V2RAY_PROXY="http://127.0.0.1:1087"
+PROXY_PATH="http://127.0.0.1:7890"
 
 # antigen
 source /usr/local/share/antigen/antigen.zsh
@@ -56,18 +55,18 @@ alias ll="ls -ahl"
 alias rm="rm -i"
 alias update_all="brew update -v && brew outdated -v --greedy"
 alias upgrade_all="brew upgrade && brew cu -ayc"
-alias backup_all="cp ~/.zshrc ~/.vimrc ~/.zprofile ~/.tmux.conf ~/.tmux.conf.local $BACKUP_DIR && brew bundle dump -f --file $BACKUP_DIR/Brewfile && pip freeze > $BACKUP_DIR/requirements.txt"
-alias proxy_on="export http_proxy=${V2RAY_PROXY}; export https_proxy=${V2RAY_PROXY}; export all_proxy=${V2RAY_PROXY}"
+alias backup_all="cp ~/.zshrc ~/.vimrc ~/.zprofile ~/.tmux.conf ~/.tmux.conf.local $BACKUP_DIR && brew bundle dump -f --file $BACKUP_DIR/Brewfile"
+alias proxy_on="export http_proxy=${PROXY_PATH}; export https_proxy=${PROXY_PATH}; export all_proxy=${PROXY_PATH}"
 alias proxy_off="unset http_proxy https_proxy all_proxy"
 
 # homebrew sbin
 export PATH="/usr/local/sbin:$PATH"
 
 # homebrew
-export HOMEBREW_GITHUB_API_TOKEN=token_paste_here
+export HOMEBREW_GITHUB_API_TOKEN=paste_token_here
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Fig post block. Keep at the bottom of this file.
-[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && . "$HOME/.fig/shell/zshrc.post.zsh"
+[[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"

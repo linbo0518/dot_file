@@ -31,7 +31,6 @@ cask "bartender"
 cask "battle-net"
 cask "boom-3d"
 cask "brooklyn"
-cask "clashx"
 cask "cmdtap"
 cask "coconutbattery"
 cask "curseforge"
@@ -41,8 +40,6 @@ cask "dingtalk"
 cask "eudic"
 cask "fig"
 cask "fliqlo"
-cask "font-fira-code-nerd-font"
-cask "font-hack-nerd-font"
 cask "font-jetbrains-mono-nerd-font"
 cask "google-chrome"
 cask "gswitch"
@@ -70,10 +67,8 @@ cask "telegram"
 cask "tencent-lemon"
 cask "tencent-meeting"
 cask "the-unarchiver"
-cask "v2rayu"
 cask "visual-studio-code"
 cask "wechat"
-cask "ximalaya"
 cask "xmind-zen"
 cask "zotero"
 mas "Affinity Photo", id: 824183456
@@ -87,8 +82,8 @@ mas "MenubarX", id: 1575588022
 mas "Moom", id: 419330170
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Pocket", id: 568494494
 mas "PopClip", id: 445189367
 mas "Reeder", id: 1449412482
 mas "Spark", id: 1176895641
 mas "TestFlight", id: 899247664
+mas "Trello", id: 1278508951

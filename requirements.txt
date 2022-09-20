@@ -1,9 +1,0 @@
-albumentations
-black
-Cython
-jupyterlab
-matplotlib
-numpy
-opencv-python
-pillow
-tqdm
