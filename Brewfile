@@ -22,7 +22,6 @@ brew "zsh"
 cask "1password"
 cask "aldente"
 cask "alfred"
-cask "altserver"
 cask "android-platform-tools"
 cask "appcleaner"
 cask "baidunetdisk"
@@ -37,8 +36,6 @@ cask "curseforge"
 cask "daisydisk"
 cask "dash"
 cask "dingtalk"
-cask "eudic"
-cask "fig"
 cask "fliqlo"
 cask "font-jetbrains-mono-nerd-font"
 cask "google-chrome"
@@ -62,6 +59,7 @@ cask "qlstephen"
 cask "qlvideo"
 cask "qq"
 cask "qqmusic"
+cask "readdle-spark"
 cask "teamviewer"
 cask "telegram"
 cask "tencent-lemon"
@@ -70,10 +68,12 @@ cask "the-unarchiver"
 cask "visual-studio-code"
 cask "wechat"
 cask "xmind-zen"
+cask "youdaodict"
 cask "zotero"
 mas "Affinity Photo", id: 824183456
 mas "Amphetamine", id: 937984704
 mas "Days Matter", id: 494500492
+mas "Infuse", id: 1136220934
 mas "Irvue", id: 1039633667
 mas "Keynote", id: 409183694
 mas "Maipo", id: 789066512
