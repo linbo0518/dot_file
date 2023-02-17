@@ -60,8 +60,5 @@ alias proxy_off="unset http_proxy https_proxy all_proxy"
 # homebrew sbin
 export PATH="/usr/local/sbin:$PATH"
 
-# homebrew
-export HOMEBREW_GITHUB_API_TOKEN=paste_token_here
-
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
