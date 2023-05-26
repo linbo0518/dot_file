@@ -24,7 +24,6 @@ antigen bundle colorize
 antigen bundle command-not-found
 antigen bundle extract
 antigen bundle pyenv
-antigen bundle rust
 antigen bundle z
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions
@@ -36,6 +35,9 @@ antigen apply
 
 # config
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
+
+# homebrew
+eval "$(/usr/local/bin/brew shellenv)"
 
 # pip zsh completion
 function _pip_completion {
@@ -51,14 +53,11 @@ compctl -K _pip_completion pip
 # alias
 alias ll="ls -ahl"
 alias rm="rm -i"
-alias update_all="brew update -v && brew outdated -v --greedy"
-alias upgrade_all="brew upgrade && brew cu -ayc"
+alias update_all="brew update --verbose && brew outdated --greedy --verbose"
+alias upgrade_all="brew upgrade && brew cu --all --cleanup --include-mas -y"
 alias backup_all="cp ~/.zshrc ~/.vimrc ~/.zprofile ~/.tmux.conf ~/.tmux.conf.local $BACKUP_DIR && brew bundle dump -f --file $BACKUP_DIR/Brewfile"
 alias proxy_on="export http_proxy=${PROXY_PATH}; export https_proxy=${PROXY_PATH}; export all_proxy=${PROXY_PATH}"
 alias proxy_off="unset http_proxy https_proxy all_proxy"
-
-# homebrew sbin
-export PATH="/usr/local/sbin:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
