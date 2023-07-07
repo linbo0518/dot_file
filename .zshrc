@@ -18,7 +18,13 @@ antigen use oh-my-zsh
 # theme
 antigen theme romkatv/powerlevel10k
 
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+
 # plugin
+antigen bundle brew
 antigen bundle colored-man-pages
 antigen bundle colorize
 antigen bundle command-not-found
@@ -36,9 +42,6 @@ antigen apply
 # config
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
 
-# homebrew
-eval "$(/usr/local/bin/brew shellenv)"
-
 # pip zsh completion
 function _pip_completion {
   local words cword
@@ -55,7 +58,7 @@ alias ll="ls -ahl"
 alias rm="rm -i"
 alias update_all="brew update --verbose && brew outdated --greedy --verbose"
 alias upgrade_all="brew upgrade && brew cu --all --cleanup --include-mas -y"
-alias backup_all="cp ~/.zshrc ~/.vimrc ~/.zprofile ~/.tmux.conf ~/.tmux.conf.local $BACKUP_DIR && brew bundle dump -f --file $BACKUP_DIR/Brewfile"
+alias backup_all="cp ~/.zshrc ~/.vimrc ~/.tmux.conf ~/.tmux.conf.local $BACKUP_DIR && brew bundle dump -f --file $BACKUP_DIR/Brewfile"
 alias proxy_on="export http_proxy=${PROXY_PATH}; export https_proxy=${PROXY_PATH}; export all_proxy=${PROXY_PATH}"
 alias proxy_off="unset http_proxy https_proxy all_proxy"
 
