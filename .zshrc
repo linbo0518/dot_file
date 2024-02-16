@@ -58,7 +58,7 @@ alias ll="ls -ahl"
 alias rm="rm -i"
 alias update_all="brew update --verbose && brew outdated --greedy --verbose"
 alias upgrade_all="brew upgrade && brew cu --all --cleanup --include-mas -y"
-alias backup_all="cp ~/.zshrc ~/.vimrc ~/.tmux.conf ~/.tmux.conf.local $BACKUP_DIR && brew bundle dump -f --file $BACKUP_DIR/Brewfile"
+alias backup_all="cp ~/.zshrc $BACKUP_DIR && brew bundle dump -f --file $BACKUP_DIR/Brewfile"
 alias proxy_on="export http_proxy=${PROXY_PATH}; export https_proxy=${PROXY_PATH}; export all_proxy=${PROXY_PATH}"
 alias proxy_off="unset http_proxy https_proxy all_proxy"
 
